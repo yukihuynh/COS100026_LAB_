@@ -1,0 +1,99 @@
+/*
+
+filename: lab04.css
+
+author: Yuki huynh
+
+created: 6/10/2026
+
+last modified: [enter date]
+
+description: [html files it refers to (if known)]
+
+*/
+* {
+    font-family: "Times New Roman", sans-serif;
+}
+
+* {
+    color: #2F4F4F;
+}
+
+body {
+    font-size: 12px;
+    color: #333;
+    margin: 20px;
+    width: 600px;
+}
+
+header h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 2px solid #ccc;
+    
+}
+
+nav a:hover {
+    background-color: #325b61;
+    color: white;
+}
+
+h2 {
+    color: #58a8a8;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3 {
+    color: #468585;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Arial", sans-serif;
+}
+
+aside,
+footer {
+     font-style: italic;
+}
+
+#Red_heading {
+    color: red;
+    font-weight: bold;
+}
+
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+table {
+    border : 1px solid black;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#Images {
+    text-align: center;
+}
+
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
