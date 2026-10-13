@@ -36,7 +36,7 @@ nav a {
     text-decoration: none;
     padding: 0.2em 0.6em;
     border: 2px solid #ccc;
-    
+
 }
 
 nav a:hover {
@@ -49,6 +49,7 @@ h2 {
     font-size: 1.5em;
     font-weight: bold;
 }
+
 h3 {
     color: #468585;
     font-weight: bold;
@@ -62,7 +63,7 @@ h3 {
 
 aside,
 footer {
-     font-style: italic;
+    font-style: italic;
 }
 
 #Red_heading {
@@ -76,7 +77,7 @@ footer {
 }
 
 table {
-    border : 1px solid black;
+    border: 1px solid black;
 }
 
 table,
