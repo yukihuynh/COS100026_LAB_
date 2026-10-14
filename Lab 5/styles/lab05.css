@@ -32,7 +32,7 @@ header h1 {
     font-weight: bold;
 }
 
-nav a {
+nav p a{
     text-decoration: none;
     padding: 0.2em 0.6em;
     border: 2px solid #ccc;
@@ -64,11 +64,6 @@ h3 {
 aside,
 footer {
     font-style: italic;
-}
-
-#Red_heading {
-    color: red;
-    font-weight: bold;
 }
 
 .special {

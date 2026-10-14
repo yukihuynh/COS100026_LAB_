@@ -1,0 +1,113 @@
+/*
+
+filename: layout.css
+
+author: Yuki huynh
+
+created: 6/10/2026
+
+last modified: [enter date]
+
+description: [html files it refers to (if known)]
+
+*/
+
+
+aside:hover {
+    display: block;
+}
+
+
+.menu {
+    display: inline-block;
+}
+
+aside {
+    border: 2px solid #666;
+    margin: 1em;
+    padding: 1em;
+    background: url(images/fade.jpg) repeat-x;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+footer {
+    border-top: 4px double #336699;
+    clear: both;
+}
+
+
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+
+#tables {
+    float: right;
+}
+
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+
+#lists,
+#tables,
+#hyperlinks,
+#images {
+    width: 50%;
+    text-align: center;
+}
+
+ol,
+ul,
+dl {
+    text-align: left;
+}
+
+
+article {
+    min-width: 30em;
+}
+
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
