@@ -19,14 +19,14 @@ aside:hover {
 
 
 .menu {
-    display: inline-block;
+    display: inline;
 }
 
 aside {
     border: 2px solid #666;
     margin: 1em;
     padding: 1em;
-    background: url(images/fade.jpg) repeat-x;
+    background: url(images/fade.jpg) repeat-x top left;
     width: 30%;
     float: right;
     box-shadow: 10px 10px 5px #aaaaaa;
@@ -92,7 +92,6 @@ dl {
 article {
     min-width: 30em;
 }
-
 
 footer p {
     display: inline-block;

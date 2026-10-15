@@ -1,0 +1,59 @@
+@media screen and (min-width: 31.25em) {
+    nav ul li {
+        width: 33%;
+    }
+
+    #section1 {
+        width: 43%;
+    }
+
+    #section2 {
+        width: 43%;
+    }
+
+    #section3 {
+        clear: both;
+        float: none;
+        width: 90%;
+        margin: 0 1em 1em 1.5em;
+    }
+
+    #section3 img {
+        float: left;
+        width: 30%;
+        margin: .5em 1em 1em 0;
+    }
+
+    article {
+        min-width: 600px;
+    }
+}
+
+@media screen and (max-width: 31.25em) {
+    header h1 {
+        font-size: 48px;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%; /*tại sao? Vì trên màn hình nhỏ hơn, các mục trong thanh điều hướng nên được xếp chồng lên nhau để phù hợp với kích thước màn hình và cung cấp trải nghiệm người dùng tốt hơn.*/
+    }
+
+    #section1,
+    #section2,
+    #section3 {
+        margin: 0;
+        float: none;
+        width: 90%; /**tại sao? Vì trên màn hình nhỏ hơn, khu vực nội dung nên hẹp hơn để vừa với viewport và cung cấp trải nghiệm đọc tốt hơn.*/
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    article {
+        min-width: 300px; 
+    }
+}
